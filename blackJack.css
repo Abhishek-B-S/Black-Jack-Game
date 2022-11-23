@@ -1,0 +1,46 @@
+html{
+    background-image: url('../Thumbnails/cards.jpg');
+    height: 100%;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1, p, button{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+
+.container{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    color: #FFFFE0;
+} 
+
+#qsn-ln, #sum-ln, #cards-ln{
+    font-weight: bold;
+    font-size: 20px;
+    color: cornsilk;
+}
+
+
+button{
+    background-color: goldenrod;
+    width: 150px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 4px;
+    border: none;
+    border-radius: 20px;
+}
+
